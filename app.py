@@ -14,7 +14,7 @@ col1, col2 = st.beta_columns(2)
 #path = r'C:\takemoto\1.research\take_REC_1-2_180810-1_2018081000115\take_REC_1-2_180810-1_2018081000115_x000000y000000-04x-Tiling8x8'
 
 
-@st.cache
+@st.cache(suppress_st_warning=True)
 def make_list():
     global til_list, frm_list, bind_til_list
     img_list = glob.glob(time_list[int(frame)] + '/*.png')
