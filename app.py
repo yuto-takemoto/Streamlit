@@ -4,8 +4,6 @@ import glob
 from PIL import Image
 import numpy as np
 import cv2
-import time
-from numpy.core._multiarray_umath import ndarray
 
 ## layout
 st.set_page_config(layout="wide")
